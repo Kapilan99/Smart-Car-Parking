@@ -3,7 +3,7 @@
 #include <RF24.h>
 
 RF24 radio(7, 8);  // CE, CSN pins
-const byte address[6] = "00001"; // Change address for each set (e.g., "00002")
+const byte address[6] = "00001"; 
 
 #define ir_car1 4
 #define ir_car2 5
